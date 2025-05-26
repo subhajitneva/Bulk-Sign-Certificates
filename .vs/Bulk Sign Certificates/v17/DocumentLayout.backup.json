@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\components\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:components\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\dtos\\pdffile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:dtos\\pdffile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\dtos\\useroutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:dtos\\useroutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\services\\customrsacngsignature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:services\\customrsacngsignature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\dtos\\loginoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:dtos\\loginoutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\bulk sign certificates.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:bulk sign certificates.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|c:\\users\\subhajit\\documents\\projects\\dotnets\\bulk sign certificates\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}|Bulk Sign Certificates.csproj|solutionrelative:services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "Components\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwDUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T11:58:44.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T11:40:58.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomRSACngSignature.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Services\\CustomRSACngSignature.cs",
+              "RelativeDocumentMoniker": "Services\\CustomRSACngSignature.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Services\\CustomRSACngSignature.cs",
+              "RelativeToolTip": "Services\\CustomRSACngSignature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T06:48:54.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Home.razor.cs",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Home.razor.cs",
+              "RelativeToolTip": "Components\\Pages\\Home.razor.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAwLgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:51:47.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PdfFile.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Dtos\\PdfFile.cs",
+              "RelativeDocumentMoniker": "Dtos\\PdfFile.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Dtos\\PdfFile.cs",
+              "RelativeToolTip": "Dtos\\PdfFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T05:06:31.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginOutput.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Dtos\\LoginOutput.cs",
+              "RelativeDocumentMoniker": "Dtos\\LoginOutput.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Dtos\\LoginOutput.cs",
+              "RelativeToolTip": "Dtos\\LoginOutput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:26:17.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserOutput.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Dtos\\UserOutput.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserOutput.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Dtos\\UserOutput.cs",
+              "RelativeToolTip": "Dtos\\UserOutput.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T12:49:05.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T05:00:57.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T11:46:32.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bulk Sign Certificates.csproj",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Bulk Sign Certificates.csproj",
+              "RelativeDocumentMoniker": "Bulk Sign Certificates.csproj",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Bulk Sign Certificates.csproj",
+              "RelativeToolTip": "Bulk Sign Certificates.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-26T11:19:50.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\Subhajit\\Documents\\Projects\\dotnets\\Bulk Sign Certificates\\Services\\FileService.cs",
+              "RelativeToolTip": "Services\\FileService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwDkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T07:23:57.299Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

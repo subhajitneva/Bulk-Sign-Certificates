@@ -1,0 +1,110 @@
+﻿@page "/home"
+<style>
+    
+    .certificate-dropdown {
+        max-width: 500px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .certificate-dropdown option {
+        max-width: 480px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+
+<div class="container py-4">
+
+    <h3 class="mb-4 text-primary">Digital Certificate File Manager</h3>
+
+    <!-- Action Buttons -->
+    <div class="mb-4 d-flex flex-wrap gap-2">
+        <button @onclick="@loadCert" class="btn btn-primary">
+            <i class="bi bi-arrow-clockwise me-1"></i> Refresh Certificates
+        </button>
+        <button class="btn btn-outline-primary" @onclick="@getFilesFromWebAsync">
+            <i class="bi bi-cloud-download me-1"></i> Load Files
+        </button>
+        <button class="btn btn-outline-success" @onclick="@signSelectedButton_Click">
+            <i class="bi bi-pencil-square me-1"></i> Sign PDF List
+        </button>
+    </div>
+
+    <!-- Certificate Dropdown -->
+    <div class="mb-4">
+        <label class="form-label fw-bold">Select Certificate</label>
+        <select class="form-select certificate-dropdown" @onchange="OnCertificateSelected">
+            <option value="">-- Select a certificate --</option>
+            @if (cert != null)
+            {
+                @foreach (var item in cert)
+                {
+                    <option value="@item.Thumbprint">@sortText(item.Subject, 35)</option>
+                }
+            }
+        </select>
+    </div>
+
+    <!-- File Table -->
+    @if (pdfFiles.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col" style="width: 50px;"><input type="checkbox" @onclick="ToggleAll" /></th>
+                        <th scope="col">File Name</th>
+                        <th scope="col">Content Type</th>
+                        <th scope="col">Data (base64 snippet)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var file in pdfFiles)
+                    {
+                        <tr>
+                            <td>
+                                <input type="checkbox" @bind="file.isSelected" />
+                            </td>
+                            <td>@file.fileName</td>
+                            <td>@file.contentType</td>
+                            <td>
+                                <span title="@file.base64Content">
+                                    @((file.base64Content?.Length ?? 0) > 30
+                                                                ? file.base64Content.Substring(0, 30) + "..."
+                                                                : file.base64Content)
+                        </span>
+                    </td>
+                </tr>
+                                }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning text-center py-5">
+            <p class="mb-1">No files loaded.</p>
+            <small class="text-muted">Use the "Load Files" button to import your PDF list.</small>
+        </div>
+    }
+
+    <!-- Message Alerts -->
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert alert-info alert-dismissible fade show mt-3" role="alert">
+            <strong>Message:</strong> @message
+            <button type="button" @onclick="() => emptyMessage(true)" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+            <strong>Error:</strong> @errorMessage
+            <button type="button" @onclick="() => emptyMessage(false)" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+</div>

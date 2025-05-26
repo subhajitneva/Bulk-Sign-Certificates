@@ -1,0 +1,8 @@
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
+C:\Users\Subhajit\Documents\Projects\dotnets\Bulk Sign Certificates\wwwroot\index.html
+C:\Users\Subhajit\Documents\Projects\dotnets\Bulk Sign Certificates\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\Subhajit\Documents\Projects\dotnets\Bulk Sign Certificates\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\Subhajit\Documents\Projects\dotnets\Bulk Sign Certificates\wwwroot\css\app.css

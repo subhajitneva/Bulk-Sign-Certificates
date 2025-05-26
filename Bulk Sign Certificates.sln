@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36119.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulk Sign Certificates", "Bulk Sign Certificates.csproj", "{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E2ED06-E042-49CB-8C17-0E642E9ABD69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26CAAE7E-CC59-482B-AF6F-01C18A238AD4}
+	EndGlobalSection
+EndGlobal

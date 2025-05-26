@@ -1,0 +1,26 @@
+﻿@page "/"
+
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card p-4 shadow-sm" style="width: 100%; max-width: 400px;">
+        <h3 class="text-primary text-center mb-3">Digital Certificate Login</h3>
+
+        <div class="mb-3">
+            <label for="username" class="form-label fw-bold">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" @bind="userName" />
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label fw-bold" >Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" @bind="password" />
+        </div>
+
+        <div class="d-grid mb-3">
+            <button class="btn btn-primary" @onclick="@LoginUser">Login</button>
+        </div>
+
+        <div class="text-center">
+            <small class="text-muted">© 2025 Nevaehtech</small>
+        </div>
+    </div>
+</div>
