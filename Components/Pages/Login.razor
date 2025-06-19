@@ -1,18 +1,22 @@
 ﻿@page "/"
 
 
-<EditForm Model="@loginDto" OnValidSubmit="clicklogin">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
-    <ValidationSummary></ValidationSummary>
-    <label for="email">Email</label>
-    <InputText type="email" id="email" @bind-Value="loginDto.email"></InputText>
-    <label for="password">Password</label>
-    <InputText id="password" @bind-Value="loginDto.password" type="password"></InputText>
-    <button type="submit">Login</button>
-    
+<EditForm Model="@loginDto" OnValidSubmit="clicklogin" class="needs-validation" novalidate>
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+            <h3 class="text-center mb-4">Login</h3>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <InputText id="email" class="form-control" @bind-Value="loginDto.email" />
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <InputText id="password" class="form-control" @bind-Value="loginDto.password" type="password" />
+            </div>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </div>
+    </div>
 </EditForm>
-@if (output != null)
-{
-    <div class="alert alert-success mt-3">@output.email</div>
-}
-)
