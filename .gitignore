@@ -1,0 +1,68 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.dbmdl
+
+## MAUI Specific
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.keystore
+*.axml
+
+# iOS
+*.app
+*.ipa
+*.dSYM/
+*.plist
+*.mobileprovision
+
+# MacCatalyst
+*.xcuserstate
+*.xcworkspace/
+*.xcodeproj/
+*.xcuserdata/
+
+# Windows
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+
+# IDE Files
+.vs/
+.vscode/
+.idea/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Build Output
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Logs
+*.log
+
+# JetBrains Rider
+.idea/
+
+# Others
+*.nupkg
+*.snupkg
+packages/
+publish/
