@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Bulk Sign Certificates.props" />
-</Project>
