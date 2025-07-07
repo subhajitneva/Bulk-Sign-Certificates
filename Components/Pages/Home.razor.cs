@@ -82,7 +82,7 @@ namespace Bulk_Sign_Certificates.Components.Pages
                 var request = new HttpRequestMessage
                 {
                     Method = HttpMethod.Get,
-                    RequestUri = new Uri("http://localhost:5008/api/Files/download-all"),
+                    RequestUri = new Uri("http://localhost:5100/api/Pdf/GetAllPdfFiles"),
                     Headers = { { "User-Agent", "insomnia/11.1.0" } },
                 };
 
@@ -159,18 +159,32 @@ namespace Bulk_Sign_Certificates.Components.Pages
             var reader = new PdfReader(inputPdfPath);
             using var outputStream = new FileStream(outputPdfPath, FileMode.Create);
 
+            // Create signature stamper
             var stamper = PdfStamper.CreateSignature(reader, outputStream, '\0');
             var appearance = stamper.SignatureAppearance;
             appearance.Reason = "Document signed";
             appearance.Location = "Digital Cert Desktop";
-            appearance.SetVisibleSignature(new iTextSharp.text.Rectangle(100, 100, 250, 150), 1, null);
 
+            // Get total pages to target last page
+            int totalPages = reader.NumberOfPages;
+            
+            var pageSize = reader.GetPageSize(totalPages);
+            float pageWidth = pageSize.Width;
+            float pageHeight = pageSize.Height;
+
+            // Define visible signature at bottom of last page (adjust coordinates as needed)
+            // Example: 100 points from left, 50 points from bottom, 250 points width, 100 points height
+            var rect = new iTextSharp.text.Rectangle(pageWidth - 200, 50, pageWidth - 50, 100);
+            appearance.SetVisibleSignature(rect, totalPages, null);
+
+            // Certificate chain
             var chain = new[] { DotNetUtilities.FromX509Certificate(cert) };
 
-            // Try wrapping with the RSACng algorithm
-            var rsa = cert.GetRSAPrivateKey(); // RSACng
+            // Private key for signing
+            var rsa = cert.GetRSAPrivateKey();
             var signature = new CustomRSACngSignature(rsa, cert, "SHA256");
 
+            // Sign the document
             MakeSignature.SignDetached(appearance, signature, chain, null, null, null, 0, CryptoStandard.CADES);
         }
         public async void sendSignedFilesToServer(List<PdfFile> pdfFiles)
@@ -179,7 +193,7 @@ namespace Bulk_Sign_Certificates.Components.Pages
             var request = new HttpRequestMessage
             {
                 Method = HttpMethod.Post,
-                RequestUri = new Uri("http://localhost:5008/api/Files/loadPDFlist"),
+                RequestUri = new Uri("http://localhost:5100/api/Pdf/save"),
                 Headers =
                 {
                     { "User-Agent", "insomnia/11.1.0" },
